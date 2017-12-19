@@ -59,8 +59,9 @@ public class SelectActivity extends AppCompatActivity {
         guiedGoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),GuideActivity.class);
-                startActivity(intent);
+                //커뮤니티 게시판을 넣어주세요
+                //Intent intent = new Intent(getApplicationContext(),GuideActivity.class);
+                //startActivity(intent);
             }
         });
 
