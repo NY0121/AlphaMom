@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "368676421057",
+    "firebase_url": "https://alphamom-75d15.firebaseio.com",
+    "project_id": "alphamom-75d15",
+    "storage_bucket": "alphamom-75d15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368676421057:android:d538c1135f87adf2",
+        "android_client_info": {
+          "package_name": "com.example.social.alphamom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368676421057-8vojkug7mrt4k1i3mebb15cdhtkl60p0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.social.alphamom",
+            "certificate_hash": "ff349b4c774aafb795ecddedde791658dc61a172"
+          }
+        },
+        {
+          "client_id": "368676421057-ujicmrlrabt7aqc558a52v5pqcnutm3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7iQ6_Obeoh6VDxPMZS30yYSBF0ZvFPPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368676421057-ujicmrlrabt7aqc558a52v5pqcnutm3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
