@@ -7,6 +7,10 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">Sign in</string>
 
+    <!--faceBook App Id-->
+    <string name="facebook_app_id">698553797010240</string>
+    <string name="fb_login_protocol_scheme">fb698553797010240</string>
+
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
