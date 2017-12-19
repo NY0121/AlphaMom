@@ -52,6 +52,18 @@
         <activity
             android:name=".UserInfoActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MapsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity
+            android:name=".MyPageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeedingRoomActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

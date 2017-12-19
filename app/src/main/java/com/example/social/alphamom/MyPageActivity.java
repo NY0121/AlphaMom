@@ -105,7 +105,7 @@ public class MyPageActivity extends AppCompatActivity implements ValueEventListe
         // Title for AlertDialog
         alert.setTitle("쪽지가 왔어요");
         // Icon for AlertDialog
-        alert.setIcon(R.drawable.login_layout_logo_img);
+        alert.setIcon(R.drawable.logo_login);
         alert.show();
     }
 
