@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_alignParentTop="true"
-        android:background="?attr/colorPrimary"
+        android:background="#FFFFFF"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/momtomom_toolbar_logo" />
+            android:src="@drawable/logo_login" />
     </android.support.v7.widget.Toolbar>
 
     <View
@@ -43,7 +43,6 @@
         android:id="@+id/login_layout_editText_email"
         android:layout_width="320dp"
         android:layout_height="50sp"
-        android:background="@drawable/join_edittext_border"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:padding="8dp"
@@ -58,7 +57,6 @@
         android:id="@+id/login_layout_editText_password"
         android:layout_width="320dp"
         android:layout_height="50sp"
-        android:background="@drawable/join_edittext_border"
         android:ems="10"
         android:inputType="textPassword"
         android:padding="8dp"
@@ -75,15 +73,15 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/mtm_button"
         android:text="로그인"
+        android:background="#FF6B88"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.315" />
 
     <Button
         android:id="@+id/login_layout_googleLogin_button"
@@ -103,7 +101,6 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="23dp"
-        android:background="@color/titleTextColor1"
         android:gravity="center"
         android:textColor="#FFFFFF"
         android:textSize="15sp"
@@ -130,6 +127,7 @@
         android:id="@+id/login_layout_join_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="회원가입하기"
         app:layout_constraintBottom_toBottomOf="@+id/divider2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -175,6 +173,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="비밀번호 찾기"
         app:layout_constraintBottom_toBottomOf="@+id/divider1"
         app:layout_constraintEnd_toStartOf="@+id/divider2"
         app:layout_constraintHorizontal_bias="0.5"
