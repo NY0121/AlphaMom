@@ -18,10 +18,10 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.mom.momtomom.Adapter.BackPressCloseHandler;
-import com.mom.momtomom.Adapter.DonorListAdapter;
-import com.mom.momtomom.DTO.BeneficiaryInfoDto;
-import com.mom.momtomom.DTO.DonorInfoDto;
+import com.example.social.alphamom.Adapter.BackPressCloseHandler;
+import com.example.social.alphamom.Adapter.DonorListAdapter;
+import com.example.social.alphamom.DTO.BeneficiaryInfoDto;
+import com.example.social.alphamom.DTO.DonorInfoDto;
 
 import java.util.ArrayList;
 
@@ -78,7 +78,7 @@ public class FeedingRoomActivity extends AppCompatActivity implements ValueEvent
                 Log.d("DonorUid", donorInfoLists.get(position).getDonorUid());
                 donorUid = donorInfoLists.get(position).getDonorUid();
                 donorInfoDto = donorInfoLists.get(position);
-
+                /*
                 Intent intent = new Intent(getApplicationContext(), ViewDonorActivity.class);
                 intent.putExtra("donorUid", donorUid);
                 intent.putExtra("donorInfoDto", donorInfoDto);
@@ -86,18 +86,20 @@ public class FeedingRoomActivity extends AppCompatActivity implements ValueEvent
                 intent.putExtra("latitude", latitude);
                 intent.putExtra("longitude", longitude);
                 startActivity(intent);
-
+                */
             }
         });
 
         add_Donor_Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /*
                 Intent intent = new Intent(getApplicationContext(), AddDonorActivity.class);
                 intent.putExtra("feedingRoomTitle", feedingRoomTitle);
                 intent.putExtra("latitude", latitude);
                 intent.putExtra("longitude", longitude);
                 startActivity(intent);
+                */
                 finish();
             }
         });
