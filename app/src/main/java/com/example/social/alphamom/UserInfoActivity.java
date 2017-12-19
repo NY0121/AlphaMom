@@ -46,7 +46,7 @@ public class UserInfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_userinfo);
 
-        //btnAddImg = findViewById(R.id.btn_add_img);
+        btnAddImg = findViewById(R.id.btn_add_img);
         ivProfileImg = findViewById(R.id.iv_profile_img);
 
 
