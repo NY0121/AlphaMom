@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="56dp"
         android:background="@drawable/my_mtm_button"
-        android:text="나의 정보 보기"
+        android:text="게시판 작성하기"
         android:textColor="#F4F4F4"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

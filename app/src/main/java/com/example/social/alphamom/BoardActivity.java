@@ -29,7 +29,7 @@ import java.util.ArrayList;
  * Created by wee on 2017. 11. 28..
  */
 
-public class MyPageActivity extends AppCompatActivity implements ValueEventListener {
+public class BoardActivity extends AppCompatActivity implements ValueEventListener {
 
     private BackPressCloseHandler backPressCloseHandler;
 

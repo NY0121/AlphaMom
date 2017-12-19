@@ -39,7 +39,6 @@ public class SelectActivity extends AppCompatActivity {
         String uid = auth.getCurrentUser().getUid();
 
         //clickEvent
-
         findFeedingRoomButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,7 +51,7 @@ public class SelectActivity extends AppCompatActivity {
         myPageGoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MyPageActivity.class);
+                Intent intent = new Intent(getApplicationContext(), BoardActivity.class);
                 startActivity(intent);
             }
         });
@@ -60,7 +59,7 @@ public class SelectActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //커뮤니티 게시판을 넣어주세요
-                Intent intent = new Intent(getApplicationContext(), MyPageActivity.class);
+                Intent intent = new Intent(getApplicationContext(), BoardActivity.class);
                 startActivity(intent);
             }
         });

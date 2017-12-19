@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_donor_layout_layout_my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:background="#FBEDEA"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageView
+            android:id="@+id/add_donor_layout_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_login" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/add_beneficiary_layout_textView_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="49dp"
+        android:background="#3ECFD0"
+        android:gravity="center"
+        android:text="게시판 작성"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/addDonor_layout_textView_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/add_donor_layout_layout_my_toolbar" />
+
+
+    <TextView
+        android:id="@+id/addDonor_layout_textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="아기자랑 게시판"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/addDonor_layout_editText_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_beneficiary_layout_textView_title" />
+
+    <EditText
+        android:id="@+id/addDonor_layout_editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="아기 이름을 입력해주세요"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/addDonor_layout_editText_residence"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDonor_layout_textView_title" />
+
+    <EditText
+        android:id="@+id/addDonor_layout_editText_residence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="거주지를 입력해주세요(간단히)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/addDonor_layout_editText_calving_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDonor_layout_editText_name" />
+
+    <EditText
+        android:id="@+id/addDonor_layout_editText_calving_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="아기 생일을 입력해주세요"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/addDonor_layout_editText_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDonor_layout_editText_residence" />
+
+    <EditText
+        android:id="@+id/addDonor_layout_editText_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="아기의 자랑을 적어주세요"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/addDonor_layout_editText_phoneNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDonor_layout_editText_calving_date" />
+
+    <EditText
+        android:id="@+id/addDonor_layout_editText_phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="연락처를 입력해주세요"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/addDonor_layout_button_nextButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDonor_layout_editText_email" />
+
+    <Button
+        android:id="@+id/addDonor_layout_button_nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B34141"
+        android:text="완료"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDonor_layout_editText_phoneNumber" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="58dp" />
+
+</android.support.constraint.ConstraintLayout>
