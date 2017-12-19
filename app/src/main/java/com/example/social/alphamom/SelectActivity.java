@@ -60,8 +60,8 @@ public class SelectActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //커뮤니티 게시판을 넣어주세요
-                //Intent intent = new Intent(getApplicationContext(),GuideActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(), MyPageActivity.class);
+                startActivity(intent);
             }
         });
 
