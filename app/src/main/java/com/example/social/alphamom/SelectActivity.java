@@ -51,7 +51,7 @@ public class SelectActivity extends AppCompatActivity {
         myPageGoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), BoardActivity.class);
+                Intent intent = new Intent(getApplicationContext(), AddDonorActivity.class);
                 startActivity(intent);
             }
         });

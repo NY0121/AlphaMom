@@ -64,6 +64,9 @@
         <activity
             android:name=".FeedingRoomActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddDonorActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
