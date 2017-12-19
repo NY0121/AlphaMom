@@ -39,7 +39,7 @@ public class SelectActivity extends AppCompatActivity {
         String uid = auth.getCurrentUser().getUid();
 
         //clickEvent
-        /*
+
         findFeedingRoomButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,7 +63,7 @@ public class SelectActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        */
+
     }
 
 
